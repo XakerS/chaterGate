@@ -2,7 +2,7 @@ import vk
 import time
 import datetime
  
-session = vk.Session(access_token="21f9450c821b598e48415877aff99a22e71264fc18e421ef1a319e0e5690bc99a64a87a5600dd76c8f23d")
+session = vk.Session(access_token="ТОКЕН СЮДА.")
 vk_api = vk.API(session, v='5.62')
 print("Версия v2 "*5)
 ass = vk_api.messages.getDialogs(count=10)
